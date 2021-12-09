@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+  <meta>
+    <file-type type="string">FlightGear add-on metadata</file-type>
+    <format-version type="int">1</format-version>
+  </meta>
+  <addon>
+    <identifier type="string">sp.ntx.AnotherGUI</identifier>
+    <name type="string">AnotherGUI</name>
+    <version type="string">1.0.1</version>
+
+
+    <authors>
+      <author>
+        <name type="string">SP-NTX</name>
+        <url type="string">https://github.com/SP-NTX</url>
+      </author>
+    </authors>
+
+
+    <short-description type="string">
+      This addon adds another GUI styles.
+    </short-description>
+
+    <long-description type="string">
+      This addon adds another GUI styles and button to change style.
+    </long-description>
+
+    <license>
+      <designation type="string">
+        GNU GPL version 2 or later
+      </designation>
+
+      <file type="string">
+        <!-- Use a relative, slash-separated path to a file under the add-on
+             base directory that contains the add-on license text. -->
+      </file>
+
+      <url type="string">
+        https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+      </url>
+    </license>
+
+    <min-FG-version type="string">2017.4.0</min-FG-version>
+    <max-FG-version type="string">none</max-FG-version>
+
+    <urls>
+
+      <code-repository type="string">
+        https://github.com/SP-NTX/AnotherGUI
+      </code-repository>
+    </urls>
+
+    <tags>
+      <tag type="string">GUI</tag>
+
+    </tags>
+
+   
+  </addon>
+</PropertyList>

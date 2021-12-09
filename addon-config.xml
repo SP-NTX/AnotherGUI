@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+
+<PropertyList>
+<sim>
+<gui>
+<style n="100" include="gui/styles/BlackGlass.xml"/>
+</gui>
+
+</sim>
+</PropertyList>
