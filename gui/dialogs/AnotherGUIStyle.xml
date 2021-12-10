@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<PropertyList>
+  <name>AnotherGUIStyle</name>
+  <modal>false</modal>
+  <layout>vbox</layout>
+
+  <text>
+    <label>Set GUI style</label>
+  </text>
+
+  <group>
+    <layout>hbox</layout>
+    <halign>fill</halign>
+    <default-padding>10</default-padding>
+    <empty><stretch>true</stretch></empty>
+
+    <button>
+      <legend>Black Glass</legend>
+      <default>true</default>
+      <equal>true</equal>
+      <binding>
+        <command>nasal</command>
+		<script>setprop("/sim/gui/current-style", 100);</script>
+      </binding>
+	  			<binding>
+				<command>reinit</command>
+				<subsystem>gui</subsystem>
+			</binding>
+    </button>
+
+
+    <empty><stretch>true</stretch></empty>
+
+    <button>
+      <legend>Default</legend>
+      <equal>true</equal>
+      <binding>
+        <command>nasal</command>
+		<script>setprop("/sim/gui/current-style", 1);
+		</script>
+      </binding>
+	  <binding>
+	<command>reinit</command>
+	<subsystem>gui</subsystem>
+	</binding>
+    <empty><stretch>true</stretch></empty>
+	    </button>
+  </group>
+</PropertyList>
