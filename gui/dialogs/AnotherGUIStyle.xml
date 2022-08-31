@@ -45,5 +45,13 @@
 	</binding>
     <empty><stretch>true</stretch></empty>
 	    </button>
+	      <button>
+      <legend>Exit</legend>
+      <equal>true</equal>
+      <key>Esc</key>
+      <binding>
+        <command>dialog-close</command>
+      </binding>
+    </button>
   </group>
 </PropertyList>
