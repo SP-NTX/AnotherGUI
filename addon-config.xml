@@ -8,6 +8,7 @@
 <style n="101" include="gui/styles/BlackBlueGlass.xml"/>
 <style n="102" include="gui/styles/BlackGreenGlass.xml"/>
 <style n="103" include="gui/styles/BlackOrangeGlass.xml"/>
+<style n="104" include="gui/styles/BlackYellowGlass.xml"/>
 </gui>
 
 </sim>
