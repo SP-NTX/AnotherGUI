@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+    <name>Black Glass Design</name>
+    <fonts>
+        <gui>
+            <name type="string">Arial-black.txf</name>
+            <baseline-height type="float">21</baseline-height>
+        </gui>
+
+        <splash>
+            <name type="string">default.txf</name>
+            <size type="float">19</size>
+            <slant type="float">0</slant>
+        </splash>
+
+        <gui-large>
+            <name>Arial-black.txf</name>
+        </gui-large>
+
+        <fixed>
+            <name>Arial-black.txf</name>
+        </fixed>
+
+        <gui-small>
+            <name>Arial-black.txf</name>
+        </gui-small>
+
+        <mp-list>
+            <name>Arial-black.txf</name>
+        </mp-list>
+
+        <replay>
+            <name>Arial-black.txf</name>
+            <size type="float">14</size>
+        </replay>
+
+        <model-view>
+            <name type="string">Arial-black.txf</name>
+        </model-view>
+
+        <nasal-editor>
+            <name type="string">Arial-black.txf</name>
+            <size>6</size>
+        </nasal-editor>
+
+        <message-display>
+            <name type="string">Arial-black.txf</name>
+			<size>7</size>
+        </message-display>
+
+        <screen>
+            <name type="string">Arial-black.txf</name>
+            <size type="float">13</size>
+        </screen>
+
+        <stopwatch>
+            <name>Arial-black.txf</name>
+        </stopwatch>
+    </fonts>
+
+    <colors>
+        <background>
+            <red type="float">0.07</red>
+            <green type="float">0.07</green>
+            <blue type="float">0.1</blue>
+            <alpha type="float">0.9</alpha>
+        </background>
+
+        <label>
+            <red type="float">1.0</red>
+            <green type="float">1.0</green>
+            <blue type="float">1.0</blue>
+            <alpha type="float">1.0</alpha>
+        </label>
+
+        <combo-editfield>
+            <red type="float">0.3</red>
+            <green type="float">0.3</green>
+            <blue type="float">0.3</blue>
+            <alpha type="float">0.9</alpha>
+        </combo-editfield>
+
+        <select-editfield>
+            <red type="float">0.4</red>
+            <green type="float">0.4</green>
+            <blue type="float">0.4</blue>
+            <alpha type="float">0.9</alpha>
+        </select-editfield>
+
+        <checkbox-foreground>
+            <red type="float">0.0</red>
+            <green type="float">0.0</green>
+            <blue type="float">0.0</blue>
+            <alpha type="float">1.0</alpha>
+        </checkbox-foreground>
+
+        <checkbox-highlight>
+            <red type="float">1.0</red>
+            <green type="float">1.0</green>
+            <blue type="float">1.0</blue>
+            <alpha type="float">0.9</alpha>
+        </checkbox-highlight>
+
+        <checkbox-misc>
+            <red type="float">1.0</red>
+            <green type="float">1.0</green>
+            <blue type="float">1.0</blue>
+            <alpha type="float">1.0</alpha>
+        </checkbox-misc>
+
+        <radio-foreground>
+            <red type="float">0.2</red>
+            <green type="float">0.2</green>
+            <blue type="float">0.4</blue>
+            <alpha type="float">0.9</alpha>
+        </radio-foreground>
+
+        <input>
+            <red type="float">0.4</red>
+            <green type="float">0.4</green>
+            <blue type="float">0.4</blue>
+            <alpha type="float">0.9</alpha>
+        </input>
+
+        <input-legend>
+            <red type="float">0</red>
+            <green type="float">0</green>
+            <blue type="float">0</blue>
+            <alpha type="float">0.9</alpha>
+        </input-legend>
+
+        <input-misc>
+            <red type="float">1.0</red>
+            <green type="float">0.0</green>
+            <blue type="float">0.0</blue>
+            <alpha type="float">1.0</alpha>
+        </input-misc>
+
+        <button>
+            <red type="float">0.02</red>
+            <green type="float">0.02</green>
+            <blue type="float">0.03</blue>
+            <alpha type="float">0.9</alpha>
+        </button>
+
+        <button-legend>
+            <red type="float">1</red>
+            <green type="float">1</green>
+            <blue type="float">1</blue>
+            <alpha type="float">0.9</alpha>
+        </button-legend>
+
+        <dial-misc>
+            <red type="float">1.0</red>
+            <green type="float">0.7</green>
+            <blue type="float">0.0</blue>
+            <alpha type="float">0.9</alpha>
+        </dial-misc>
+
+        <hrule>
+            <red type="float">1</red>
+            <green type="float">0.6</green>
+            <blue type="float">0.3</blue>
+            <alpha type="float">1.0</alpha>
+        </hrule>
+
+        <vrule>
+            <red type="float">1</red>
+            <green type="float">0.6</green>
+            <blue type="float">0.3</blue>
+            <alpha type="float">1.0</alpha>
+        </vrule>
+
+        <slider>
+            <red type="float">0.5</red>
+            <green type="float">0.5</green>
+            <blue type="float">0.5</blue>
+            <alpha type="float">0.9</alpha>
+        </slider>
+
+        <textbox-editable>
+            <red type="float">0.4</red>
+            <green type="float">0.4</green>
+            <blue type="float">0.4</blue>
+            <alpha type="float">0.9</alpha>
+        </textbox-editable>
+
+        <!-- splash screen colors -->
+
+        <splash-font>
+            <red type="float">1.0</red>
+            <green type="float">0.9</green>
+            <blue type="float">0.0</blue>
+        </splash-font>
+
+        <splash-screen>
+            <red type="float">0.0</red>
+            <green type="float">0.0</green>
+            <blue type="float">0.0</blue>
+        </splash-screen>
+    </colors>
+</PropertyList>

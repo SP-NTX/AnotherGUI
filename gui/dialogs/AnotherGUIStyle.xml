@@ -27,8 +27,45 @@
 				<subsystem>gui</subsystem>
 			</binding>
     </button>
-
-
+    <button>
+      <legend>Black Blue Glass</legend>
+      <default>true</default>
+      <equal>true</equal>
+      <binding>
+        <command>nasal</command>
+		<script>setprop("/sim/gui/current-style", 101);</script>
+      </binding>
+	  			<binding>
+				<command>reinit</command>
+				<subsystem>gui</subsystem>
+			</binding>
+    </button>
+	    <button>
+      <legend>Black Green Glass</legend>
+      <default>true</default>
+      <equal>true</equal>
+      <binding>
+        <command>nasal</command>
+		<script>setprop("/sim/gui/current-style", 102);</script>
+      </binding>
+	  			<binding>
+				<command>reinit</command>
+				<subsystem>gui</subsystem>
+			</binding>
+    </button>
+	    <button>
+      <legend>Black Orange Glass</legend>
+      <default>true</default>
+      <equal>true</equal>
+      <binding>
+        <command>nasal</command>
+		<script>setprop("/sim/gui/current-style", 103);</script>
+      </binding>
+	  			<binding>
+				<command>reinit</command>
+				<subsystem>gui</subsystem>
+			</binding>
+    </button>
     <empty><stretch>true</stretch></empty>
 
     <button>

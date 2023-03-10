@@ -5,6 +5,9 @@
 <sim>
 <gui>
 <style n="100" include="gui/styles/BlackGlass.xml"/>
+<style n="101" include="gui/styles/BlackBlueGlass.xml"/>
+<style n="102" include="gui/styles/BlackGreenGlass.xml"/>
+<style n="103" include="gui/styles/BlackOrangeGlass.xml"/>
 </gui>
 
 </sim>
